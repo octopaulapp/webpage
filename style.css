@@ -1,0 +1,14 @@
+/***** Classes to present our Features, managing Container's float
+*****/
+
+.featureleft {
+    float:left;
+    margin: 50%;
+    max-width: 500px;
+}
+
+.featureright {
+    float:right;
+    margin: 50%;
+    max-width: 500px;
+}
