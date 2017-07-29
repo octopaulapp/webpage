@@ -1,0 +1,76 @@
+
+
+/***** Custom Headings
+*****/
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 9em;
+    padding: 0;
+    margin: 0;
+    text-shadow: 2px 0px 0.5em #000;
+    vertical-align: middle;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    text-shadow: 2px 0px 0.5em #000;
+    vertical-align: middle;
+}
+
+/***** Cover image CSS
+*****/
+
+.header {
+    background: linear-gradient(green, transparent 90%),
+                url(../img/schienen.jpg);
+    background-size: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/***** Classes to present our Features, managing Container's float
+*****/
+.featurecontainer {
+    display: flex; /*or inline-flex*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.featureitem {
+    align-self: center;
+    min-width: 40%;
+    padding: 5%;
+}
+
+/***** ID Selectors to order feature presentation
+*****/
+
+.overview {
+    order: 1;
+}
+
+.proconlist {
+    order: 2;
+}
+
+.sortlist {
+    order: 3;
+}
+
+.evalutaion {
+    order: 4;
+}
