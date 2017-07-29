@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+@import url('https://fonts.googleapis.com/css?family=Heebo:900');
 
 
-/***** Custom Headings
-*****/
 * {
     box-sizing: border-box;
+}
+
+/***** Typography Section
+*****/
+
+i{
+    font-style: italic;
+}
+
+b {
+    font-weight: 700;
+}
+
+strong {
+    font-weight: 700;
 }
 
 h1 {
@@ -14,23 +29,36 @@ h1 {
     margin: 0;
     text-shadow: 2px 0px 0.5em #000;
     vertical-align: middle;
+    font-family: 'Heebo', sans-serif;
+    padding-top: 1em;
 }
 
 h2 {
-    color: #fff;
+    color:red;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     padding: 0;
     margin: 0;
-    text-shadow: 2px 0px 0.5em #000;
+    text-shadow: 2px 0px 0.5em #fff;
     vertical-align: middle;
+    font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.5em;
+}
+
+h4{
+
 }
 
 /***** Cover image CSS
 *****/
 
 .header {
-    background: linear-gradient(green, transparent 90%),
+    background: linear-gradient(0deg, white, transparent 100%),
                 url(../img/schienen.jpg);
     background-size: 100%;
     height: 100vh;
@@ -38,7 +66,6 @@ h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-
 
 /***** Classes to present our Features, managing Container's float
 *****/
